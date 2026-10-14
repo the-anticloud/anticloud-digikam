@@ -1,0 +1,9 @@
+# AIOSS ledger v1
+# project: CAMERAS/DIGIKAM
+# records: 5
+# head: 17fbecc150793c6f05a1a8df39e3e6030318502c5ef01b56cce3c2d59c1e1d29
+{"digest": "2ff53f5d94c90a9c415368c234304f59653f7252332ebad92b7c1fa3dc3a69e3", "kind": "bench-report", "path": "BENCH.json", "payload_sha3": "e3d37c10d319ab0be8578b3ab78f243e4847820178ee74ed55976a57a797d1b5", "prev": "5a5a9db5fb708ae61804306200e7a9e31853dde596c5f14d2303d4349fe14b2d", "seq": 0, "ts": "2026-10-09T05:52:29Z"}
+{"digest": "34c90036f1d10126e59386f70ad38f6b035c82bc6b61670fea38ab38494e56e0", "kind": "result-register", "path": "ISOLATED_LAB_RESULTS/03_Result_Register.md", "payload_sha3": "b592eeef401d4b32ad2ba8816dd72e4489b069db3be0a52e4828e10d2c5f3d49", "prev": "2ff53f5d94c90a9c415368c234304f59653f7252332ebad92b7c1fa3dc3a69e3", "seq": 1, "ts": "2026-10-09T05:52:29Z"}
+{"digest": "eb4a17f438ac466d374bc8b63a1b45a5f1c68b3150449cdb6654ddc8f37cdf03", "kind": "readme", "path": "README.md", "payload_sha3": "cec426a761585235c30fcc8732b2a3642b1cf6b17ca073a819091c437a31c998", "prev": "34c90036f1d10126e59386f70ad38f6b035c82bc6b61670fea38ab38494e56e0", "seq": 2, "ts": "2026-10-09T05:52:29Z"}
+{"digest": "956f42fdd5ab73e6da8c2ac036bec5a121d46c0719c0097bed04a432c222c122", "kind": "licence", "path": "ANTICOMMONS_LICENSE.md", "payload_sha3": "bd50b2b51cb8146c468191f4f17a69d22721e816e88744a9563ff05398cc6f8c", "prev": "eb4a17f438ac466d374bc8b63a1b45a5f1c68b3150449cdb6654ddc8f37cdf03", "seq": 3, "ts": "2026-10-09T05:52:29Z"}
+{"digest": "17fbecc150793c6f05a1a8df39e3e6030318502c5ef01b56cce3c2d59c1e1d29", "kind": "notice", "path": "NOTICE", "payload_sha3": "89208a7d814486a733d4652e5a33cc634d7e52b5329d3d04315aed8fba9de2b7", "prev": "956f42fdd5ab73e6da8c2ac036bec5a121d46c0719c0097bed04a432c222c122", "seq": 4, "ts": "2026-10-09T05:52:29Z"}
