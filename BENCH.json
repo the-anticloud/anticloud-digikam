@@ -2,13 +2,11 @@
  "schema": "anticloud.tier-bench/1",
  "project": "DIGIKAM",
  "source": {
-  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\CAMERAS\\DIGIKAM\\UPSTREAM_CLONE",
   "git": {
-   "head": "33606aaae83b9291e356ccfc3ce8ee06c3ef1bba",
-   "url": "https://github.com/LibrePhotos/librephotos",
-   "branch": "dev",
-   "committed_at": "",
-   "sha_verified_from": "GitHub API substitute swap 2026-10-12"
+   "url": "https://github.com/KDE/digikam",
+   "head": "33d0457e20adda97c003f3dee652a1749406ff9f",
+   "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
+   "previous_substitute": "https://github.com/LibrePhotos/librephotos"
   }
  },
  "metrics": {
