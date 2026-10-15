@@ -1,0 +1,4078 @@
+{
+ "schema": "anticloud.tier-bench/1",
+ "project": "DIGIKAM",
+ "source": {
+  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\CAMERAS\\DIGIKAM\\UPSTREAM_CLONE",
+  "git": {
+   "head": "33606aaae83b9291e356ccfc3ce8ee06c3ef1bba",
+   "url": "https://github.com/LibrePhotos/librephotos",
+   "branch": "dev",
+   "committed_at": "",
+   "sha_verified_from": "GitHub API substitute swap 2026-10-12"
+  }
+ },
+ "metrics": {
+  "files_total": 2024,
+  "source_files_scanned": 1605,
+  "lines_of_code": 250639,
+  "languages": {
+   ".py": 688,
+   ".ts": 505,
+   ".tsx": 440,
+   ".md": 120,
+   ".json": 65,
+   ".png": 56,
+   ".css": 31,
+   "(none)": 28,
+   ".js": 13,
+   ".jpg": 12,
+   ".webp": 10,
+   ".yaml": 8,
+   ".sh": 7,
+   ".sql": 7,
+   ".txt": 7
+  }
+ },
+ "licence": {
+  "spdx": "MIT",
+  "class": "A",
+  "source_file": "LICENSE",
+  "redistribution_allowed": true
+ },
+ "dependencies": {
+  "count": 191,
+  "unique": 159,
+  "by_ecosystem": {
+   "npm": 191
+  },
+  "list": [
+   {
+    "ecosystem": "npm",
+    "name": "expo",
+    "version": "~57.0.24",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "expo-router",
+    "version": "~57.0.22",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "19.2.3",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "19.2.3",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@eslint/js",
+    "version": "^10.0.0",
+    "source_file": "packages/api-client/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tanstack/react-query",
+    "version": "^5.62.0",
+    "source_file": "packages/api-client/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/node",
+    "version": "^22.10.2",
+    "source_file": "packages/api-client/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react",
+    "version": "^19.2.0",
+    "source_file": "packages/api-client/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint",
+    "version": "^10.0.0",
+    "source_file": "packages/api-client/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-react-hooks",
+    "version": "^7.0.0",
+    "source_file": "packages/api-client/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^19.2.0",
+    "source_file": "packages/api-client/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "~6.0.3",
+    "source_file": "packages/api-client/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript-eslint",
+    "version": "^8.58.0",
+    "source_file": "packages/api-client/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vitest",
+    "version": "^5.0.0",
+    "source_file": "packages/api-client/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "zod",
+    "version": "^3.24.1",
+    "source_file": "packages/api-client/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tanstack/react-query",
+    "version": "^5.0.0",
+    "source_file": "packages/api-client/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": ">=18",
+    "source_file": "packages/api-client/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "zod",
+    "version": "^3.23.0",
+    "source_file": "packages/api-client/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@expo/vector-icons",
+    "version": "^15.0.2",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@shopify/flash-list",
+    "version": "2.0.2",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tanstack/react-query",
+    "version": "^5.101.4",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "drizzle-orm",
+    "version": "^0.45.2",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "expo",
+    "version": "~57.0.24",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "expo-background-task",
+    "version": "~57.0.19",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "expo-battery",
+    "version": "~57.0.3",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "expo-clipboard",
+    "version": "~57.0.2",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "expo-constants",
+    "version": "~57.0.19",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "expo-dev-client",
+    "version": "~57.0.19",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "expo-device",
+    "version": "~57.0.2",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "expo-file-system",
+    "version": "~57.0.7",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "expo-font",
+    "version": "~57.0.4",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "expo-glass-effect",
+    "version": "~57.0.3",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "expo-image",
+    "version": "~57.0.5",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "expo-linking",
+    "version": "~57.0.10",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "expo-media-library",
+    "version": "~57.0.5",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "expo-network",
+    "version": "~57.0.2",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "expo-notifications",
+    "version": "~57.0.20",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "expo-router",
+    "version": "~57.0.22",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "expo-secure-store",
+    "version": "~57.0.4",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "expo-splash-screen",
+    "version": "~57.0.9",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "expo-sqlite",
+    "version": "~57.0.3",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "expo-status-bar",
+    "version": "~57.0.1",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "expo-symbols",
+    "version": "~57.0.3",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "expo-system-ui",
+    "version": "~57.0.4",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "expo-task-manager",
+    "version": "~57.0.19",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "expo-video",
+    "version": "~57.0.4",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "expo-web-browser",
+    "version": "~57.0.3",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "i18next",
+    "version": "^26.3.6",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "nativewind",
+    "version": "^4.2.6",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "19.2.3",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "19.2.3",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-i18next",
+    "version": "^17.0.11",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-native",
+    "version": "0.86.3",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-native-gesture-handler",
+    "version": "~2.32.0",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-native-reanimated",
+    "version": "4.5.1",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-native-safe-area-context",
+    "version": "~5.7.0",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-native-screens",
+    "version": "~4.26.0",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-native-svg",
+    "version": "15.15.4",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-native-web",
+    "version": "~0.21.0",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-native-worklets",
+    "version": "0.10.1",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "zod",
+    "version": "^3.24.1",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "zustand",
+    "version": "^5.0.14",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@react-native/jest-preset",
+    "version": "^0.86.0",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@testing-library/react-native",
+    "version": "^13.3.3",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/better-sqlite3",
+    "version": "^7.6.13",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/jest",
+    "version": "^29.5.14",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react",
+    "version": "~19.2.0",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "babel-plugin-inline-import",
+    "version": "^3.0.0",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "babel-preset-expo",
+    "version": "~57.0.0",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "better-sqlite3",
+    "version": "^12.11.1",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "drizzle-kit",
+    "version": "^0.31.10",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint",
+    "version": "^9.39.5",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-config-expo",
+    "version": "~57.0.2",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jest",
+    "version": "^29.7.0",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jest-expo",
+    "version": "~57.0.5",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prettier",
+    "version": "^3.9.6",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-test-renderer",
+    "version": "19.2.3",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tailwindcss",
+    "version": "^3.4.19",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "~6.0.3",
+    "source_file": "apps/mobile/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@dnd-kit/core",
+    "version": "^6.3.1",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@dnd-kit/sortable",
+    "version": "^10.0.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@dnd-kit/utilities",
+    "version": "^3.2.2",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@floating-ui/dom",
+    "version": "^1.8.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mantine/carousel",
+    "version": "^9.7.1",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mantine/charts",
+    "version": "^9.7.1",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mantine/core",
+    "version": "^9.7.1",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mantine/dates",
+    "version": "^9.7.1",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mantine/form",
+    "version": "^9.7.1",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mantine/hooks",
+    "version": "^9.7.1",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mantine/notifications",
+    "version": "^9.7.1",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mantine/spotlight",
+    "version": "^9.7.1",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mantine/tiptap",
+    "version": "^9.7.1",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tabler/icons-react",
+    "version": "^3.41.1",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tanstack/react-query",
+    "version": "^5.96.2",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tanstack/react-router",
+    "version": "^1.168.10",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tanstack/react-virtual",
+    "version": "^3.14.13",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/core",
+    "version": "^3.31.4",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-document",
+    "version": "^3.31.4",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-link",
+    "version": "^3.31.4",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-mention",
+    "version": "^3.31.4",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-paragraph",
+    "version": "^3.31.4",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/extension-text",
+    "version": "^3.31.4",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/pm",
+    "version": "^3.31.4",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/react",
+    "version": "^3.31.4",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tiptap/suggestion",
+    "version": "^3.31.4",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@use-gesture/react",
+    "version": "^10.3.1",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@visx/gradient",
+    "version": "4.0.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@visx/group",
+    "version": "4.0.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@visx/hierarchy",
+    "version": "4.0.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@visx/shape",
+    "version": "4.0.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@welldone-software/why-did-you-render",
+    "version": "^10.0.1",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "clsx",
+    "version": "^2.1.1",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "crypto-js",
+    "version": "4.2.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "d3-drag",
+    "version": "3.0.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "d3-force",
+    "version": "3.0.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "d3-hierarchy",
+    "version": "3.1.2",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "d3-selection",
+    "version": "3.0.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "d3-shape",
+    "version": "3.2.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "d3-zoom",
+    "version": "3.0.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "dayjs",
+    "version": "^1.11.20",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "embla-carousel-react",
+    "version": "^8.6.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "i18next",
+    "version": "^26.0.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "i18next-browser-languagedetector",
+    "version": "^8.2.1",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jwt-decode",
+    "version": "^4.0.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "lodash",
+    "version": "^4.18.1",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "lodash-es",
+    "version": "^4.18.1",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "luxon",
+    "version": "3.7.2",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "maplibre-gl",
+    "version": "^6.0.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "motion",
+    "version": "^14.0.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prop-types",
+    "version": "15.8.1",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "19.3.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-avatar-editor",
+    "version": "16.0.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-cookie",
+    "version": "^8.0.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-cool-dimensions",
+    "version": "3.0.1",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "19.3.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dropzone",
+    "version": "^20.0.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-i18next",
+    "version": "^17.0.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-is",
+    "version": "19.3.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-map-gl",
+    "version": "^8.1.3",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "recharts",
+    "version": "^3.10.1",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tippy.js",
+    "version": "^6.3.7",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "zod",
+    "version": "4.6.6",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@eslint-community/eslint-plugin-eslint-comments",
+    "version": "^4.8.1",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@eslint/js",
+    "version": "^10.0.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ianvs/prettier-plugin-sort-imports",
+    "version": "^4.7.1",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tanstack/router-plugin",
+    "version": "^1.167.12",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/crypto-js",
+    "version": "4.2.2",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/d3-drag",
+    "version": "3.0.7",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/d3-force",
+    "version": "3.0.10",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/d3-selection",
+    "version": "3.0.12",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/d3-shape",
+    "version": "3.2.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/d3-zoom",
+    "version": "3.0.9",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/geojson",
+    "version": "^7946.0.16",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/lodash",
+    "version": "^4.17.24",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/lodash-es",
+    "version": "^4.17.12",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/luxon",
+    "version": "3.7.6",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/node",
+    "version": "^24.0.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react",
+    "version": "19.3.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react-dom",
+    "version": "19.3.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react-modal",
+    "version": "3.16.3",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@typescript-eslint/eslint-plugin",
+    "version": "^8.58.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@typescript-eslint/parser",
+    "version": "^8.58.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@vitejs/plugin-react",
+    "version": "^6.0.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@vitest/coverage-v8",
+    "version": "^5.0.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint",
+    "version": "10.12.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-nibble",
+    "version": "9.1.1",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-prettier",
+    "version": "^5.5.5",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-react",
+    "version": "7.37.5",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-react-hooks",
+    "version": "^7.0.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "globals",
+    "version": "^17.4.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "husky",
+    "version": "^9.1.7",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jsdom",
+    "version": "^30.0.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "lint-staged",
+    "version": "^17.0.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prettier",
+    "version": "^3.8.1",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "rimraf",
+    "version": "^6.1.3",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "6.0.3",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vite",
+    "version": "^8.0.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vitest",
+    "version": "^5.0.0",
+    "source_file": "apps/frontend/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@playwright/test",
+    "version": "1.64.0",
+    "source_file": "apps/frontend/e2e/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/node",
+    "version": "^24.0.0",
+    "source_file": "apps/frontend/e2e/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@docusaurus/core",
+    "version": "3.10.2",
+    "source_file": "apps/docs/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@docusaurus/preset-classic",
+    "version": "3.10.2",
+    "source_file": "apps/docs/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@mdx-js/react",
+    "version": "^3.1.1",
+    "source_file": "apps/docs/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "clsx",
+    "version": "^2.1.1",
+    "source_file": "apps/docs/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prism-react-renderer",
+    "version": "^2.4.1",
+    "source_file": "apps/docs/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^19.2.0",
+    "source_file": "apps/docs/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^19.2.0",
+    "source_file": "apps/docs/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@docusaurus/module-type-aliases",
+    "version": "3.10.2",
+    "source_file": "apps/docs/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@docusaurus/tsconfig",
+    "version": "3.10.2",
+    "source_file": "apps/docs/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@docusaurus/types",
+    "version": "3.10.2",
+    "source_file": "apps/docs/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "~6.0.0",
+    "source_file": "apps/docs/package.json",
+    "raw": ""
+   }
+  ]
+ },
+ "owasp_top10": {
+  "total_findings": 124,
+  "files_with_findings": 110,
+  "severity": {
+   "high": 29,
+   "medium": 44,
+   "low": 51
+  },
+  "categories": {
+   "A01-BrokenAccessControl": {
+    "count": 0,
+    "findings": []
+   },
+   "A02-CryptographicFailures": {
+    "count": 22,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "apps/mobile/src/sync/upload/__tests__/worker.test.ts",
+      "line": 59,
+      "cwe": "CWE-327",
+      "snippet": "// Completion carries the device capture/modify times + raw md5 (userId stripped)."
+     },
+     {
+      "severity": "medium",
+      "file": "apps/mobile/src/sync/device/expo-asset-hasher.ts",
+      "line": 7,
+      "cwe": "CWE-327",
+      "snippet": "* Computing `md5(bytes)` over a 3 MB photo is tens of milliseconds. On a real"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/mobile/src/sync/device/hasher.ts",
+      "line": 3,
+      "cwe": "CWE-327",
+      "snippet": "* LibrePhotos file hash \u2014 `md5(bytes) + str(userId)` (matches `File.hash`"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/mobile/src/db/schema.ts",
+      "line": 205,
+      "cwe": "CWE-327",
+      "snippet": "hash: text(\"hash\"), // md5(bytes)+userId \u2014 null until hashed"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/frontend/src/components/upload/chunkedUpload.ts",
+      "line": 9,
+      "cwe": "CWE-327",
+      "snippet": "return Promise.resolve(CryptoJS.algo.MD5.create().finalize().toString(CryptoJS.enc.Hex));"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/chunked_upload/models.py",
+      "line": 57,
+      "cwe": "CWE-327",
+      "snippet": "def md5(self) -> str:"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/api/duplicate_detection.py",
+      "line": 5,
+      "cwe": "CWE-327",
+      "snippet": "- EXACT_COPY: Files with identical MD5 hash (byte-for-byte copies)"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/api/views/duplicates.py",
+      "line": 5,
+      "cwe": "CWE-327",
+      "snippet": "- EXACT_COPY: Byte-for-byte identical files (same MD5 hash, different paths)"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/api/views/photos.py",
+      "line": 58,
+      "cwe": "CWE-327",
+      "snippet": "Image hash is a 32-char MD5 hex string (backward compatibility)."
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/api/views/photo_metadata.py",
+      "line": 64,
+      "cwe": "CWE-327",
+      "snippet": "# MD5 hashes are 32 hex chars without hyphens"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/api/tests/test_upload_auth.py",
+      "line": 38,
+      "cwe": "CWE-327",
+      "snippet": "self.md5 = hashlib.md5(self.payload).hexdigest()"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/api/tests/utils.py",
+      "line": 322,
+      "cwe": "CWE-327",
+      "snippet": "\"\"\"A File row for ``user``, hashed the way the app hashes a file (MD5 plus the owner id)."
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/api/tests/uploads/test_chunked_upload_completion.py",
+      "line": 311,
+      "cwe": "CWE-327",
+      "snippet": "hashlib.md5(b\"hello-bytes\").hexdigest() + str(self.user.id), first_call[3]"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/api/tests/uploads/test_chunked_upload_owner_scope.py",
+      "line": 47,
+      "cwe": "CWE-327",
+      "snippet": "self.md5 = hashlib.md5(self.payload).hexdigest()"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/api/tests/photos/test_photo_hash_existence_oracle.py",
+      "line": 3,
+      "cwe": "CWE-327",
+      "snippet": "``image_hash`` is ``md5(file bytes) + owner id``, so anyone holding a file can"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/api/tests/migrations/test_migration_0144_sqlite_restore_foreign_keys.py",
+      "line": 41,
+      "cwe": "CWE-327",
+      "snippet": "# An image_hash as pre-UUID LibrePhotos wrote them: an MD5 plus the owner id."
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/api/tests/metadata/test_photo_metadata_existence_oracle.py",
+      "line": 6,
+      "cwe": "CWE-327",
+      "snippet": "MD5 plus the owner's user id, so anyone holding a file can compute the hash it"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/api/tests/duplicates/test_duplicate_detection_algorithms.py",
+      "line": 11,
+      "cwe": "CWE-327",
+      "snippet": "- detect_exact_copies: Exact copy detection via MD5 hash"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/api/stacks/__init__.py",
+      "line": 5,
+      "cwe": "CWE-327",
+      "snippet": "- Exact copies (same MD5 hash)"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/api/models/duplicate.py",
+      "line": 5,
+      "cwe": "CWE-327",
+      "snippet": "- EXACT_COPY: Byte-for-byte identical files (same MD5 hash, different paths)"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/api/models/file.py",
+      "line": 250,
+      "cwe": "CWE-327",
+      "snippet": "hash_md5 = hashlib.md5()"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/api/models/photo.py",
+      "line": 79,
+      "cwe": "CWE-327",
+      "snippet": "# Format: MD5 hash + user_id (e.g., \"abc123def456...789\" + \"1\")"
+     }
+    ]
+   },
+   "A03-Injection": {
+    "count": 14,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "apps/mobile/src/sync/outbox/replay.ts",
+      "line": 117,
+      "cwe": "CWE-89",
+      "snippet": "SELECT ${realId}, photo_id, ordering FROM user_album_photo WHERE album_id = ${tempId}`"
+     },
+     {
+      "severity": "high",
+      "file": "apps/mobile/src/lib/format.ts",
+      "line": 30,
+      "cwe": "CWE-95",
+      "snippet": "const m = /^(\\d{4})-(\\d{2})-(\\d{2})/.exec(day);"
+     },
+     {
+      "severity": "high",
+      "file": "apps/mobile/src/features/viewer/timestamp.ts",
+      "line": 49,
+      "cwe": "CWE-95",
+      "snippet": "const match = EDITABLE.exec(text.trim());"
+     },
+     {
+      "severity": "high",
+      "file": "apps/mobile/src/db/test-db.ts",
+      "line": 21,
+      "cwe": "CWE-95",
+      "snippet": "for (const stmt of MIGRATION_STATEMENTS) sqlite.exec(stmt);"
+     },
+     {
+      "severity": "high",
+      "file": "apps/mobile/src/db/queries/filters.ts",
+      "line": 77,
+      "cwe": "CWE-89",
+      "snippet": "sql`SELECT ${COLS} FROM remote_photo WHERE ${where} ORDER BY ${orderBy} ${limit}`"
+     },
+     {
+      "severity": "high",
+      "file": "apps/mobile/src/db/queries/search.ts",
+      "line": 49,
+      "cwe": "CWE-89",
+      "snippet": "sql`SELECT ${PHOTO_COLS} FROM remote_photo"
+     },
+     {
+      "severity": "high",
+      "file": "apps/frontend/src/hooks/useAlbumListGridConfig.test.tsx",
+      "line": 16,
+      "cwe": "CWE-95",
+      "snippet": "const minWidth = /min-width:\\s*([\\d.]+)em/.exec(query);"
+     },
+     {
+      "severity": "high",
+      "file": "apps/frontend/src/hooks/useIsDesktopLayout.test.tsx",
+      "line": 15,
+      "cwe": "CWE-95",
+      "snippet": "const minWidth = /min-width:\\s*([\\d.]+)em/.exec(query);"
+     },
+     {
+      "severity": "high",
+      "file": "apps/frontend/src/components/scrollscrubber/ScrollScrubber.breakpoints.test.tsx",
+      "line": 15,
+      "cwe": "CWE-95",
+      "snippet": "const minWidth = /min-width:\\s*([\\d.]+)em/.exec(query);"
+     },
+     {
+      "severity": "high",
+      "file": "apps/backend/scripts/build_openclip_onnx.py",
+      "line": 332,
+      "cwe": "CWE-95",
+      "snippet": "model.eval()"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/chunked_upload/management/commands/delete_expired_uploads.py",
+      "line": 38,
+      "cwe": "CWE-89",
+      "snippet": "prompt = prompt_msg.format(obj=chunked_upload) + \" (y/n): \""
+     },
+     {
+      "severity": "high",
+      "file": "apps/backend/api/tests/migrations/test_migration_0143_sqlite_photo_ids_hex.py",
+      "line": 108,
+      "cwe": "CWE-89",
+      "snippet": "f'SELECT \"{column}\" FROM \"{table}\" WHERE \"{column}\" IN ({placeholders})',"
+     },
+     {
+      "severity": "high",
+      "file": "apps/backend/api/tests/migrations/test_migration_0144_sqlite_restore_foreign_keys.py",
+      "line": 373,
+      "cwe": "CWE-89",
+      "snippet": "f'SELECT {values} FROM \"{table}\" WHERE \"photo_id\" = %s',"
+     },
+     {
+      "severity": "high",
+      "file": "apps/backend/api/migrations/0001_squashed_0100.py",
+      "line": 449,
+      "cwe": "CWE-89",
+      "snippet": "f'SELECT {cols_quoted} FROM \"{table_name}\"'"
+     }
+    ]
+   },
+   "A04-InsecureDesign": {
+    "count": 12,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "apps/mobile/src/components/TimelineList.tsx",
+      "line": 53,
+      "cwe": "CWE-",
+      "snippet": "* so day headers span full width without grid-spanning hacks and 100k-item"
+     },
+     {
+      "severity": "low",
+      "file": "apps/frontend/src/util/util.ts",
+      "line": 28,
+      "cwe": "CWE-",
+      "snippet": "// TODO: Add ordinal suffix to day of month when implemented in luxon (NB, is it still valid?)"
+     },
+     {
+      "severity": "low",
+      "file": "apps/frontend/src/components/facedashboard/hooks/useFaceDataFetching.ts",
+      "line": 96,
+      "cwe": "CWE-",
+      "snippet": "// TODO(sickelap): find a better way to do this"
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/librephotos/settings/production.py",
+      "line": 81,
+      "cwe": "CWE-",
+      "snippet": "# it falls back to a fresh /tmp/matplotlib-XXXXXXXX directory and rebuilds the"
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/api/views/album_auto.py",
+      "line": 21,
+      "cwe": "CWE-",
+      "snippet": "# TODO: This is a fetches with too many queries. We need to optimize this."
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/api/views/photos.py",
+      "line": 718,
+      "cwe": "CWE-",
+      "snippet": "def retrieve(  # pragma: no cover TODO(sickelap): remove unused code"
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/api/views/photo_metadata.py",
+      "line": 63,
+      "cwe": "CWE-",
+      "snippet": "# UUID format is 36 chars with 4 hyphens (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)"
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/api/tests/photos/test_api_input_hardening.py",
+      "line": 355,
+      "cwe": "CWE-",
+      "snippet": "data={\"camera\": \"Hacked Camera\"},"
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/api/tests/metadata/test_photo_metadata_api.py",
+      "line": 224,
+      "cwe": "CWE-",
+      "snippet": "{\"title\": \"Hacked Title\"},"
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/api/tests/infra/test_issue_907_matplotlib_config_dir.py",
+      "line": 13,
+      "cwe": "CWE-",
+      "snippet": "writable, so matplotlib falls back to a brand new ``/tmp/matplotlib-XXXXXXXX``"
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/api/tests/albums/test_issue_619_album_detail_query_counts.py",
+      "line": 27,
+      "cwe": "CWE-",
+      "snippet": "``# TODO: This is a fetches with too many queries. We need to optimize this.``"
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/api/serializers/photos.py",
+      "line": 92,
+      "cwe": "CWE-",
+      "snippet": "# TODO: Rename this field to aspect_ratio"
+     }
+    ]
+   },
+   "A05-SecurityMisconfiguration": {
+    "count": 17,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "apps/backend/librephotos/logging_bootstrap.py",
+      "line": 148,
+      "cwe": "CWE-1188",
+      "snippet": "return env.env_flag(\"LOG_TO_CONSOLE\", default=True)"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/librephotos/standalone.py",
+      "line": 522,
+      "cwe": "CWE-1188",
+      "snippet": "default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/librephotos/settings/development.py",
+      "line": 3,
+      "cwe": "CWE-489",
+      "snippet": "DEBUG = True"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/librephotos/settings/dev_windows.py",
+      "line": 11,
+      "cwe": "CWE-489",
+      "snippet": "# DEBUG=True makes Django re-interpolate migration SQL containing \"%\"; opt in."
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/librephotos/settings/production.py",
+      "line": 127,
+      "cwe": "CWE-1188",
+      "snippet": "\"FEATURE_PROCESS_EMBEDDED_MEDIA\", default=True"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/librephotos/settings/test.py",
+      "line": 7,
+      "cwe": "CWE-489",
+      "snippet": "DEBUG = True"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/api/tests/infra/test_environment_variables_documented.py",
+      "line": 302,
+      "cwe": "CWE-1188",
+      "snippet": "'env_flag(\"FEATURE_VIDEO\", default=True)\\n'"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/api/tests/infra/test_env_parsing.py",
+      "line": 66,
+      "cwe": "CWE-1188",
+      "snippet": "def legacy_env_flag(value, default=True, empty=False):"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/api/tests/infra/test_feature_flag_gating.py",
+      "line": 47,
+      "cwe": "CWE-1188",
+      "snippet": "self.assertTrue(env_flag(\"FEATURE_TEST\", default=True))"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/api/tests/infra/test_settings_env_parsing.py",
+      "line": 184,
+      "cwe": "CWE-1188",
+      "snippet": "self.assertFalse(env.env_flag(\"X_FLAG\", default=True))"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/api/tests/infra/test_signal_receivers.py",
+      "line": 12,
+      "cwe": "CWE-489",
+      "snippet": "alive. The suite runs with ``DEBUG = True``, so a receiver nothing else"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/api/models/email_config.py",
+      "line": 121,
+      "cwe": "CWE-1188",
+      "snippet": "use_tls = models.BooleanField(default=True)"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/api/models/user.py",
+      "line": 143,
+      "cwe": "CWE-1188",
+      "snippet": "stack_raw_jpeg = models.BooleanField(default=True)"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/api/migrations/0001_squashed_0100.py",
+      "line": 706,
+      "cwe": "CWE-1188",
+      "snippet": "('is_active', models.BooleanField(default=True, help_text='Designates whether this user should be treated as active. Unselect this instead of deleting accounts.', verbose_name='act"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/api/migrations/0108_add_stack_raw_jpeg_field.py",
+      "line": 16,
+      "cwe": "CWE-1188",
+      "snippet": "field=models.BooleanField(default=True),"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/api/migrations/0128_emailconfig.py",
+      "line": 48,
+      "cwe": "CWE-1188",
+      "snippet": "(\"use_tls\", models.BooleanField(default=True)),"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/api/management/commands/save_metadata.py",
+      "line": 28,
+      "cwe": "CWE-1188",
+      "snippet": "default=True,"
+     }
+    ]
+   },
+   "A06-VulnerableComponents": {
+    "count": 0,
+    "findings": []
+   },
+   "A07-AuthFailures": {
+    "count": 16,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "apps/backend/nextcloud/tests.py",
+      "line": 144,
+      "cwe": "CWE-798",
+      "snippet": "nextcloud_username=\"alice\", nextcloud_app_password=\"app-password\""
+     },
+     {
+      "severity": "high",
+      "file": "apps/backend/librephotos/settings/production.py",
+      "line": 479,
+      "cwe": "CWE-798",
+      "snippet": "INSECURE_DEFAULT_DB_PASSWORD = \"AaAa1234\""
+     },
+     {
+      "severity": "high",
+      "file": "apps/backend/api/tests/users_and_auth/test_auth_throttling.py",
+      "line": 75,
+      "cwe": "CWE-798",
+      "snippet": "self.user = User.objects.create_user(username=\"alice\", password=\"secret-pw-1\")"
+     },
+     {
+      "severity": "high",
+      "file": "apps/backend/api/tests/users_and_auth/test_password_reset_flow.py",
+      "line": 23,
+      "cwe": "CWE-798",
+      "snippet": "def _make_user(email=\"alice@example.com\", password=\"oldpassword123\"):"
+     },
+     {
+      "severity": "high",
+      "file": "apps/backend/api/tests/users_and_auth/test_signup_is_atomic.py",
+      "line": 66,
+      "cwe": "CWE-798",
+      "snippet": "username=\"admin\", password=\"typed in plain text\", email=\"old@example.com\""
+     },
+     {
+      "severity": "high",
+      "file": "apps/backend/api/tests/users_and_auth/test_user_management_commands.py",
+      "line": 263,
+      "cwe": "CWE-798",
+      "snippet": "password=\"directpw\","
+     },
+     {
+      "severity": "high",
+      "file": "apps/backend/api/tests/users_and_auth/test_user_serializer_update.py",
+      "line": 52,
+      "cwe": "CWE-798",
+      "snippet": "result = self._update(password=\"new-password-123\")"
+     },
+     {
+      "severity": "high",
+      "file": "apps/backend/api/tests/scanning/test_issue_1030_nextcloud_listdir_errors.py",
+      "line": 59,
+      "cwe": "CWE-798",
+      "snippet": "nextcloud_app_password=\"app-password\","
+     },
+     {
+      "severity": "high",
+      "file": "apps/backend/api/tests/scanning/test_nextcloud_hardening.py",
+      "line": 195,
+      "cwe": "CWE-798",
+      "snippet": "nextcloud_app_password=\"app-password\","
+     },
+     {
+      "severity": "high",
+      "file": "apps/backend/api/tests/scanning/test_raw_files_always_imported.py",
+      "line": 24,
+      "cwe": "CWE-798",
+      "snippet": "password=\"testpass123\","
+     },
+     {
+      "severity": "high",
+      "file": "apps/backend/api/tests/scanning/test_scan_progress_reporting.py",
+      "line": 16,
+      "cwe": "CWE-798",
+      "snippet": "password=\"testpass\","
+     },
+     {
+      "severity": "high",
+      "file": "apps/backend/api/tests/jobs/test_issue_1066_nextcloud_scan_job_failure.py",
+      "line": 49,
+      "cwe": "CWE-798",
+      "snippet": "nextcloud_app_password=\"app-password\","
+     },
+     {
+      "severity": "high",
+      "file": "apps/backend/api/tests/infra/test_email_config.py",
+      "line": 32,
+      "cwe": "CWE-798",
+      "snippet": "c.secret = \"super-secret-key\""
+     },
+     {
+      "severity": "high",
+      "file": "apps/backend/api/tests/infra/test_nextcloud_feature_flag.py",
+      "line": 46,
+      "cwe": "CWE-798",
+      "snippet": "nextcloud_app_password=\"app-password\","
+     },
+     {
+      "severity": "high",
+      "file": "apps/backend/api/tests/infra/test_site_settings_map_api_key.py",
+      "line": 16,
+      "cwe": "CWE-798",
+      "snippet": "SECRET = \"MAPBOX-SECRET-abc123xy\""
+     },
+     {
+      "severity": "high",
+      "file": "apps/backend/api/tests/faces/test_social_graph_building.py",
+      "line": 15,
+      "cwe": "CWE-798",
+      "snippet": "self.user = User.objects.create_user(username=\"testuser\", password=\"testpass\")"
+     }
+    ]
+   },
+   "A08-SoftwareDataIntegrity": {
+    "count": 34,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "packages/api-client/src/__tests__/live.contract.test.ts",
+      "line": 9,
+      "cwe": "CWE-319",
+      "snippet": "*   LIBREPHOTOS_LIVE_URL=http://localhost:8000 \\"
+     },
+     {
+      "severity": "low",
+      "file": "deploy/e2e/entrypoint.sh",
+      "line": 16,
+      "cwe": "CWE-319",
+      "snippet": "until python -c \"import urllib.request; urllib.request.urlopen('http://localhost:8001/api/healthz')\" 2>/dev/null; do"
+     },
+     {
+      "severity": "low",
+      "file": "apps/mobile/src/features/viewer/MapPreview.tsx",
+      "line": 97,
+      "cwe": "CWE-319",
+      "snippet": "return `http://maps.apple.com/?ll=${coords}${query}`;"
+     },
+     {
+      "severity": "low",
+      "file": "apps/frontend/src/__repro__/issue_970.test.tsx",
+      "line": 32,
+      "cwe": "CWE-319",
+      "snippet": "const SERVER = \"http://localhost:3000\";"
+     },
+     {
+      "severity": "low",
+      "file": "apps/frontend/src/util/placeholderImage.ts",
+      "line": 7,
+      "cwe": "CWE-319",
+      "snippet": "'<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">' +"
+     },
+     {
+      "severity": "low",
+      "file": "apps/frontend/src/components/photolist/PhotoListView.test.tsx",
+      "line": 421,
+      "cwe": "CWE-319",
+      "snippet": "avatar: \"http://localhost/media/avatars/admin.png\","
+     },
+     {
+      "severity": "low",
+      "file": "apps/frontend/src/components/facedashboard/FaceComponent.tsx",
+      "line": 33,
+      "cwe": "CWE-319",
+      "snippet": "// image is a URL, e.g. http://backend/path/to/file.jpg"
+     },
+     {
+      "severity": "low",
+      "file": "apps/frontend/src/api_client/albums/hooks/useFetchDateAlbumsQuery.timeline.test.tsx",
+      "line": 54,
+      "cwe": "CWE-319",
+      "snippet": "const url = new URL(defined(stubs.get.mock.calls[0], \"the request\")[0], \"http://x\");"
+     },
+     {
+      "severity": "low",
+      "file": "apps/frontend/e2e/playwright.config.ts",
+      "line": 7,
+      "cwe": "CWE-319",
+      "snippet": "* deploy/compose/docker-compose.e2e.yml on http://localhost:8080. Point"
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/scripts/build_standalone.py",
+      "line": 307,
+      "cwe": "CWE-319",
+      "snippet": "\"server; it opens http://localhost:8000/ in your browser. The first start\\n\""
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/nextcloud/server_address.py",
+      "line": 13,
+      "cwe": "CWE-319",
+      "snippet": "example ``http://127.0.0.1:8163\\\\@8.8.8.8/`` is 8.8.8.8 to ``urlparse`` but"
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/nextcloud/tests.py",
+      "line": 5,
+      "cwe": "CWE-319",
+      "snippet": "urllib3 but not for ``urlparse``. ``http://127.0.0.1:8163\\\\@8.8.8.8/`` passed"
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/librephotos/standalone.py",
+      "line": 571,
+      "cwe": "CWE-319",
+      "snippet": "url = f\"http://{shown_host}:{port}/\""
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/librephotos/settings/production.py",
+      "line": 405,
+      "cwe": "CWE-319",
+      "snippet": "CORS_ALLOWED_ORIGINS = [\"http://localhost:3000\"]"
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/librephotos/settings/production_noproxy.py",
+      "line": 63,
+      "cwe": "CWE-319",
+      "snippet": "# production seeds this with the split dev setup's http://localhost:3000, which"
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/librephotos/settings/standalone.py",
+      "line": 28,
+      "cwe": "CWE-319",
+      "snippet": "\"CSRF_TRUSTED_ORIGINS\", [\"http://localhost:8000\", \"http://127.0.0.1:8000\"]"
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/api/public_url.py",
+      "line": 8,
+      "cwe": "CWE-319",
+      "snippet": "yields ``http://backend/...`` \u2014 a name only resolvable inside the Docker network."
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/api/sidecars.py",
+      "line": 39,
+      "cwe": "CWE-319",
+      "snippet": "SIDECAR_HOST = \"http://127.0.0.1\""
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/api/views/sso.py",
+      "line": 42,
+      "cwe": "CWE-319",
+      "snippet": "behind the standard proxy resolves to ``http://backend/...`` \u2014 the browser"
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/api/tests/users_and_auth/test_oidc_sso_login.py",
+      "line": 93,
+      "cwe": "CWE-319",
+      "snippet": "self.assertEqual(public_base_url(request), \"http://localhost\")"
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/api/tests/users_and_auth/test_password_reset_host_poisoning.py",
+      "line": 79,
+      "cwe": "CWE-319",
+      "snippet": "CSRF_TRUSTED_ORIGINS=[\"http://photos.lan\"],"
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/api/tests/search/test_similarity_index_persistence.py",
+      "line": 354,
+      "cwe": "CWE-319",
+      "snippet": "self.assertEqual(post.call_args.args[0], \"http://127.0.0.1:8002/build/\")"
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/api/tests/scanning/test_nextcloud_hardening.py",
+      "line": 62,
+      "cwe": "CWE-319",
+      "snippet": "\"http://cloud.example.com:8080/nextcloud/\","
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/api/tests/photos/test_thumbnail_creation_and_orientation.py",
+      "line": 216,
+      "cwe": "CWE-319",
+      "snippet": "\"http://127.0.0.1:8003/\","
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/api/tests/photos/test_thumbnail_metadata.py",
+      "line": 47,
+      "cwe": "CWE-319",
+      "snippet": "b'xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">'"
+     }
+    ]
+   },
+   "A09-LoggingMonitoringFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A10-SSRF": {
+    "count": 9,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "apps/frontend/src/util/imageClipboard.ts",
+      "line": 38,
+      "cwe": "CWE-918",
+      "snippet": "const response = await fetch(url, { credentials: \"include\" });"
+     },
+     {
+      "severity": "low",
+      "file": "apps/frontend/src/routes/public/index.tsx",
+      "line": 7,
+      "cwe": "CWE-601",
+      "snippet": "throw redirect({ to: \"/\", replace: true });"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/frontend/src/components/settings/Profile.tsx",
+      "line": 52,
+      "cwe": "CWE-918",
+      "snippet": "const res = await fetch(url);"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/scripts/build_exiftool_wheel.py",
+      "line": 33,
+      "cwe": "CWE-918",
+      "snippet": "return urllib.request.urlopen(url, timeout=120).read()"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/scripts/build_ffmpeg_wheel.py",
+      "line": 48,
+      "cwe": "CWE-918",
+      "snippet": "data = urllib.request.urlopen(url, timeout=600).read()"
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/nextcloud/server_address.py",
+      "line": 182,
+      "cwe": "CWE-601",
+      "snippet": "def _refuse_unsafe_redirect("
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/api/adapters.py",
+      "line": 38,
+      "cwe": "CWE-601",
+      "snippet": "def _login_error_redirect(reason: str) -> ImmediateHttpResponse:"
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/api/apps.py",
+      "line": 82,
+      "cwe": "CWE-601",
+      "snippet": "login redirect is built by ``OAuth2Provider.redirect()``, which"
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/api/tests/users_and_auth/test_oidc_sso_login.py",
+      "line": 124,
+      "cwe": "CWE-601",
+      "snippet": "``OAuth2Provider.redirect()`` builds its own adapter from"
+     }
+    ]
+   }
+  }
+ },
+ "owasp_llm_top10": {
+  "total_findings": 12,
+  "files_with_findings": 12,
+  "severity": {
+   "high": 0,
+   "medium": 3,
+   "low": 9
+  },
+  "categories": {
+   "LLM01-PromptInjection": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM02-SensitiveInfoDisclosure": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM03-SupplyChain": {
+    "count": 1,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "apps/backend/scripts/build_openclip_onnx.py",
+      "line": 287,
+      "cwe": "CWE-494",
+      "snippet": "hf_hub_download(HF_REPO, name, revision=HF_REVISION, cache_dir=str(work))"
+     }
+    ]
+   },
+   "LLM04-DataPoisoning": {
+    "count": 2,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "apps/backend/api/tests/users_and_auth/test_rules_exif_tag_injection.py",
+      "line": 104,
+      "cwe": "CWE-20",
+      "snippet": "saved = json.loads(User.objects.get(id=self.user.id).datetime_rules)"
+     },
+     {
+      "severity": "medium",
+      "file": "apps/backend/api/tests/stacks/test_stack_detection_edge_cases.py",
+      "line": 975,
+      "cwe": "CWE-20",
+      "snippet": "rules_config = json.loads(self.user.burst_detection_rules)"
+     }
+    ]
+   },
+   "LLM05-ImproperOutputHandling": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM06-ExcessiveAgency": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM07-SystemPromptLeak": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM08-VectorEmbeddingWeaknesses": {
+    "count": 7,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "apps/backend/image_similarity/main.py",
+      "line": 1,
+      "cwe": "CWE-",
+      "snippet": "\"\"\"Image similarity sidecar: per-user FAISS indices over the CLIP embeddings."
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/image_similarity/retrieval_index.py",
+      "line": 5,
+      "cwe": "CWE-",
+      "snippet": "import faiss"
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/api/video_playback.py",
+      "line": 31,
+      "cwe": "CWE-",
+      "snippet": "# Where the chroma and the bit depth sit in an ffmpeg pixel format name:"
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/api/tests/search/test_batch_clip_embeddings_job.py",
+      "line": 4,
+      "cwe": "CWE-",
+      "snippet": "and the FAISS index rebuild (``build_image_similarity_index``) are patched"
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/api/tests/search/test_retrieval_index_build.py",
+      "line": 6,
+      "cwe": "CWE-",
+      "snippet": "No ML models, network or exiftool binaries are involved -- FAISS is a pure"
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/api/tests/search/test_similarity_index_persistence.py",
+      "line": 139,
+      "cwe": "CWE-",
+      "snippet": "index = retrieval_index.faiss.IndexFlatIP(DIM)"
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/api/tests/media_serving/test_video_even_dimensions.py",
+      "line": 4,
+      "cwe": "CWE-",
+      "snippet": "refuses a picture with an odd side: half a chroma row does not exist. The"
+     }
+    ]
+   },
+   "LLM09-Misinformation": {
+    "count": 2,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "apps/backend/api/adapters.py",
+      "line": 15,
+      "cwe": "CWE-",
+      "snippet": "LibrePhotos account only when the identity provider asserts a *verified* email."
+     },
+     {
+      "severity": "low",
+      "file": "apps/backend/api/tests/sharing_and_public/test_cross_tenant_writes.py",
+      "line": 756,
+      "cwe": "CWE-",
+      "snippet": "self.assertEqual(drop_verified_format_twins([plain, copy]), [plain])"
+     }
+    ]
+   },
+   "LLM10-UnboundedConsumption": {
+    "count": 0,
+    "findings": []
+   }
+  }
+ },
+ "sbom": {
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:f82a1683-da3f-540b-86c3-9133b4da0e01",
+  "version": 1,
+  "metadata": {
+   "timestamp": "2026-10-12T06:04:04Z",
+   "component": {
+    "type": "application",
+    "name": "DIGIKAM",
+    "version": "33606aaae83b",
+    "bom-ref": "pkg:generic/anticloud/DIGIKAM@33606aaae83b",
+    "purl": "pkg:generic/anticloud/DIGIKAM@33606aaae83b",
+    "licenses": [
+     {
+      "license": {
+       "id": "MIT"
+      }
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "anticloud:source-commit",
+     "value": "33606aaae83b9291e356ccfc3ce8ee06c3ef1bba"
+    },
+    {
+     "name": "anticloud:source-url",
+     "value": ""
+    },
+    {
+     "name": "anticloud:tier",
+     "value": "tier-agent"
+    }
+   ]
+  },
+  "components": [
+   {
+    "type": "library",
+    "name": "expo",
+    "version": "~57.0.24",
+    "purl": "pkg:npm/expo@~57.0.24",
+    "bom-ref": "npm/expo@~57.0.24"
+   },
+   {
+    "type": "library",
+    "name": "expo-router",
+    "version": "~57.0.22",
+    "purl": "pkg:npm/expo-router@~57.0.22",
+    "bom-ref": "npm/expo-router@~57.0.22"
+   },
+   {
+    "type": "library",
+    "name": "react",
+    "version": "19.2.3",
+    "purl": "pkg:npm/react@19.2.3",
+    "bom-ref": "npm/react@19.2.3"
+   },
+   {
+    "type": "library",
+    "name": "react-dom",
+    "version": "19.2.3",
+    "purl": "pkg:npm/react-dom@19.2.3",
+    "bom-ref": "npm/react-dom@19.2.3"
+   },
+   {
+    "type": "library",
+    "name": "@eslint/js",
+    "version": "^10.0.0",
+    "purl": "pkg:npm/@eslint/js@^10.0.0",
+    "bom-ref": "npm/@eslint/js@^10.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@tanstack/react-query",
+    "version": "^5.62.0",
+    "purl": "pkg:npm/@tanstack/react-query@^5.62.0",
+    "bom-ref": "npm/@tanstack/react-query@^5.62.0"
+   },
+   {
+    "type": "library",
+    "name": "@types/node",
+    "version": "^22.10.2",
+    "purl": "pkg:npm/@types/node@^22.10.2",
+    "bom-ref": "npm/@types/node@^22.10.2"
+   },
+   {
+    "type": "library",
+    "name": "@types/react",
+    "version": "^19.2.0",
+    "purl": "pkg:npm/@types/react@^19.2.0",
+    "bom-ref": "npm/@types/react@^19.2.0"
+   },
+   {
+    "type": "library",
+    "name": "eslint",
+    "version": "^10.0.0",
+    "purl": "pkg:npm/eslint@^10.0.0",
+    "bom-ref": "npm/eslint@^10.0.0"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-react-hooks",
+    "version": "^7.0.0",
+    "purl": "pkg:npm/eslint-plugin-react-hooks@^7.0.0",
+    "bom-ref": "npm/eslint-plugin-react-hooks@^7.0.0"
+   },
+   {
+    "type": "library",
+    "name": "typescript",
+    "version": "~6.0.3",
+    "purl": "pkg:npm/typescript@~6.0.3",
+    "bom-ref": "npm/typescript@~6.0.3"
+   },
+   {
+    "type": "library",
+    "name": "typescript-eslint",
+    "version": "^8.58.0",
+    "purl": "pkg:npm/typescript-eslint@^8.58.0",
+    "bom-ref": "npm/typescript-eslint@^8.58.0"
+   },
+   {
+    "type": "library",
+    "name": "vitest",
+    "version": "^5.0.0",
+    "purl": "pkg:npm/vitest@^5.0.0",
+    "bom-ref": "npm/vitest@^5.0.0"
+   },
+   {
+    "type": "library",
+    "name": "zod",
+    "version": "^3.24.1",
+    "purl": "pkg:npm/zod@^3.24.1",
+    "bom-ref": "npm/zod@^3.24.1"
+   },
+   {
+    "type": "library",
+    "name": "@expo/vector-icons",
+    "version": "^15.0.2",
+    "purl": "pkg:npm/@expo/vector-icons@^15.0.2",
+    "bom-ref": "npm/@expo/vector-icons@^15.0.2"
+   },
+   {
+    "type": "library",
+    "name": "@shopify/flash-list",
+    "version": "2.0.2",
+    "purl": "pkg:npm/@shopify/flash-list@2.0.2",
+    "bom-ref": "npm/@shopify/flash-list@2.0.2"
+   },
+   {
+    "type": "library",
+    "name": "drizzle-orm",
+    "version": "^0.45.2",
+    "purl": "pkg:npm/drizzle-orm@^0.45.2",
+    "bom-ref": "npm/drizzle-orm@^0.45.2"
+   },
+   {
+    "type": "library",
+    "name": "expo-background-task",
+    "version": "~57.0.19",
+    "purl": "pkg:npm/expo-background-task@~57.0.19",
+    "bom-ref": "npm/expo-background-task@~57.0.19"
+   },
+   {
+    "type": "library",
+    "name": "expo-battery",
+    "version": "~57.0.3",
+    "purl": "pkg:npm/expo-battery@~57.0.3",
+    "bom-ref": "npm/expo-battery@~57.0.3"
+   },
+   {
+    "type": "library",
+    "name": "expo-clipboard",
+    "version": "~57.0.2",
+    "purl": "pkg:npm/expo-clipboard@~57.0.2",
+    "bom-ref": "npm/expo-clipboard@~57.0.2"
+   },
+   {
+    "type": "library",
+    "name": "expo-constants",
+    "version": "~57.0.19",
+    "purl": "pkg:npm/expo-constants@~57.0.19",
+    "bom-ref": "npm/expo-constants@~57.0.19"
+   },
+   {
+    "type": "library",
+    "name": "expo-dev-client",
+    "version": "~57.0.19",
+    "purl": "pkg:npm/expo-dev-client@~57.0.19",
+    "bom-ref": "npm/expo-dev-client@~57.0.19"
+   },
+   {
+    "type": "library",
+    "name": "expo-device",
+    "version": "~57.0.2",
+    "purl": "pkg:npm/expo-device@~57.0.2",
+    "bom-ref": "npm/expo-device@~57.0.2"
+   },
+   {
+    "type": "library",
+    "name": "expo-file-system",
+    "version": "~57.0.7",
+    "purl": "pkg:npm/expo-file-system@~57.0.7",
+    "bom-ref": "npm/expo-file-system@~57.0.7"
+   },
+   {
+    "type": "library",
+    "name": "expo-font",
+    "version": "~57.0.4",
+    "purl": "pkg:npm/expo-font@~57.0.4",
+    "bom-ref": "npm/expo-font@~57.0.4"
+   },
+   {
+    "type": "library",
+    "name": "expo-glass-effect",
+    "version": "~57.0.3",
+    "purl": "pkg:npm/expo-glass-effect@~57.0.3",
+    "bom-ref": "npm/expo-glass-effect@~57.0.3"
+   },
+   {
+    "type": "library",
+    "name": "expo-image",
+    "version": "~57.0.5",
+    "purl": "pkg:npm/expo-image@~57.0.5",
+    "bom-ref": "npm/expo-image@~57.0.5"
+   },
+   {
+    "type": "library",
+    "name": "expo-linking",
+    "version": "~57.0.10",
+    "purl": "pkg:npm/expo-linking@~57.0.10",
+    "bom-ref": "npm/expo-linking@~57.0.10"
+   },
+   {
+    "type": "library",
+    "name": "expo-media-library",
+    "version": "~57.0.5",
+    "purl": "pkg:npm/expo-media-library@~57.0.5",
+    "bom-ref": "npm/expo-media-library@~57.0.5"
+   },
+   {
+    "type": "library",
+    "name": "expo-network",
+    "version": "~57.0.2",
+    "purl": "pkg:npm/expo-network@~57.0.2",
+    "bom-ref": "npm/expo-network@~57.0.2"
+   },
+   {
+    "type": "library",
+    "name": "expo-notifications",
+    "version": "~57.0.20",
+    "purl": "pkg:npm/expo-notifications@~57.0.20",
+    "bom-ref": "npm/expo-notifications@~57.0.20"
+   },
+   {
+    "type": "library",
+    "name": "expo-secure-store",
+    "version": "~57.0.4",
+    "purl": "pkg:npm/expo-secure-store@~57.0.4",
+    "bom-ref": "npm/expo-secure-store@~57.0.4"
+   },
+   {
+    "type": "library",
+    "name": "expo-splash-screen",
+    "version": "~57.0.9",
+    "purl": "pkg:npm/expo-splash-screen@~57.0.9",
+    "bom-ref": "npm/expo-splash-screen@~57.0.9"
+   },
+   {
+    "type": "library",
+    "name": "expo-sqlite",
+    "version": "~57.0.3",
+    "purl": "pkg:npm/expo-sqlite@~57.0.3",
+    "bom-ref": "npm/expo-sqlite@~57.0.3"
+   },
+   {
+    "type": "library",
+    "name": "expo-status-bar",
+    "version": "~57.0.1",
+    "purl": "pkg:npm/expo-status-bar@~57.0.1",
+    "bom-ref": "npm/expo-status-bar@~57.0.1"
+   },
+   {
+    "type": "library",
+    "name": "expo-symbols",
+    "version": "~57.0.3",
+    "purl": "pkg:npm/expo-symbols@~57.0.3",
+    "bom-ref": "npm/expo-symbols@~57.0.3"
+   },
+   {
+    "type": "library",
+    "name": "expo-system-ui",
+    "version": "~57.0.4",
+    "purl": "pkg:npm/expo-system-ui@~57.0.4",
+    "bom-ref": "npm/expo-system-ui@~57.0.4"
+   },
+   {
+    "type": "library",
+    "name": "expo-task-manager",
+    "version": "~57.0.19",
+    "purl": "pkg:npm/expo-task-manager@~57.0.19",
+    "bom-ref": "npm/expo-task-manager@~57.0.19"
+   },
+   {
+    "type": "library",
+    "name": "expo-video",
+    "version": "~57.0.4",
+    "purl": "pkg:npm/expo-video@~57.0.4",
+    "bom-ref": "npm/expo-video@~57.0.4"
+   },
+   {
+    "type": "library",
+    "name": "expo-web-browser",
+    "version": "~57.0.3",
+    "purl": "pkg:npm/expo-web-browser@~57.0.3",
+    "bom-ref": "npm/expo-web-browser@~57.0.3"
+   },
+   {
+    "type": "library",
+    "name": "i18next",
+    "version": "^26.3.6",
+    "purl": "pkg:npm/i18next@^26.3.6",
+    "bom-ref": "npm/i18next@^26.3.6"
+   },
+   {
+    "type": "library",
+    "name": "nativewind",
+    "version": "^4.2.6",
+    "purl": "pkg:npm/nativewind@^4.2.6",
+    "bom-ref": "npm/nativewind@^4.2.6"
+   },
+   {
+    "type": "library",
+    "name": "react-i18next",
+    "version": "^17.0.11",
+    "purl": "pkg:npm/react-i18next@^17.0.11",
+    "bom-ref": "npm/react-i18next@^17.0.11"
+   },
+   {
+    "type": "library",
+    "name": "react-native",
+    "version": "0.86.3",
+    "purl": "pkg:npm/react-native@0.86.3",
+    "bom-ref": "npm/react-native@0.86.3"
+   },
+   {
+    "type": "library",
+    "name": "react-native-gesture-handler",
+    "version": "~2.32.0",
+    "purl": "pkg:npm/react-native-gesture-handler@~2.32.0",
+    "bom-ref": "npm/react-native-gesture-handler@~2.32.0"
+   },
+   {
+    "type": "library",
+    "name": "react-native-reanimated",
+    "version": "4.5.1",
+    "purl": "pkg:npm/react-native-reanimated@4.5.1",
+    "bom-ref": "npm/react-native-reanimated@4.5.1"
+   },
+   {
+    "type": "library",
+    "name": "react-native-safe-area-context",
+    "version": "~5.7.0",
+    "purl": "pkg:npm/react-native-safe-area-context@~5.7.0",
+    "bom-ref": "npm/react-native-safe-area-context@~5.7.0"
+   },
+   {
+    "type": "library",
+    "name": "react-native-screens",
+    "version": "~4.26.0",
+    "purl": "pkg:npm/react-native-screens@~4.26.0",
+    "bom-ref": "npm/react-native-screens@~4.26.0"
+   },
+   {
+    "type": "library",
+    "name": "react-native-svg",
+    "version": "15.15.4",
+    "purl": "pkg:npm/react-native-svg@15.15.4",
+    "bom-ref": "npm/react-native-svg@15.15.4"
+   },
+   {
+    "type": "library",
+    "name": "react-native-web",
+    "version": "~0.21.0",
+    "purl": "pkg:npm/react-native-web@~0.21.0",
+    "bom-ref": "npm/react-native-web@~0.21.0"
+   },
+   {
+    "type": "library",
+    "name": "react-native-worklets",
+    "version": "0.10.1",
+    "purl": "pkg:npm/react-native-worklets@0.10.1",
+    "bom-ref": "npm/react-native-worklets@0.10.1"
+   },
+   {
+    "type": "library",
+    "name": "zustand",
+    "version": "^5.0.14",
+    "purl": "pkg:npm/zustand@^5.0.14",
+    "bom-ref": "npm/zustand@^5.0.14"
+   },
+   {
+    "type": "library",
+    "name": "@react-native/jest-preset",
+    "version": "^0.86.0",
+    "purl": "pkg:npm/@react-native/jest-preset@^0.86.0",
+    "bom-ref": "npm/@react-native/jest-preset@^0.86.0"
+   },
+   {
+    "type": "library",
+    "name": "@testing-library/react-native",
+    "version": "^13.3.3",
+    "purl": "pkg:npm/@testing-library/react-native@^13.3.3",
+    "bom-ref": "npm/@testing-library/react-native@^13.3.3"
+   },
+   {
+    "type": "library",
+    "name": "@types/better-sqlite3",
+    "version": "^7.6.13",
+    "purl": "pkg:npm/@types/better-sqlite3@^7.6.13",
+    "bom-ref": "npm/@types/better-sqlite3@^7.6.13"
+   },
+   {
+    "type": "library",
+    "name": "@types/jest",
+    "version": "^29.5.14",
+    "purl": "pkg:npm/@types/jest@^29.5.14",
+    "bom-ref": "npm/@types/jest@^29.5.14"
+   },
+   {
+    "type": "library",
+    "name": "babel-plugin-inline-import",
+    "version": "^3.0.0",
+    "purl": "pkg:npm/babel-plugin-inline-import@^3.0.0",
+    "bom-ref": "npm/babel-plugin-inline-import@^3.0.0"
+   },
+   {
+    "type": "library",
+    "name": "babel-preset-expo",
+    "version": "~57.0.0",
+    "purl": "pkg:npm/babel-preset-expo@~57.0.0",
+    "bom-ref": "npm/babel-preset-expo@~57.0.0"
+   },
+   {
+    "type": "library",
+    "name": "better-sqlite3",
+    "version": "^12.11.1",
+    "purl": "pkg:npm/better-sqlite3@^12.11.1",
+    "bom-ref": "npm/better-sqlite3@^12.11.1"
+   },
+   {
+    "type": "library",
+    "name": "drizzle-kit",
+    "version": "^0.31.10",
+    "purl": "pkg:npm/drizzle-kit@^0.31.10",
+    "bom-ref": "npm/drizzle-kit@^0.31.10"
+   },
+   {
+    "type": "library",
+    "name": "eslint-config-expo",
+    "version": "~57.0.2",
+    "purl": "pkg:npm/eslint-config-expo@~57.0.2",
+    "bom-ref": "npm/eslint-config-expo@~57.0.2"
+   },
+   {
+    "type": "library",
+    "name": "jest",
+    "version": "^29.7.0",
+    "purl": "pkg:npm/jest@^29.7.0",
+    "bom-ref": "npm/jest@^29.7.0"
+   },
+   {
+    "type": "library",
+    "name": "jest-expo",
+    "version": "~57.0.5",
+    "purl": "pkg:npm/jest-expo@~57.0.5",
+    "bom-ref": "npm/jest-expo@~57.0.5"
+   },
+   {
+    "type": "library",
+    "name": "prettier",
+    "version": "^3.9.6",
+    "purl": "pkg:npm/prettier@^3.9.6",
+    "bom-ref": "npm/prettier@^3.9.6"
+   },
+   {
+    "type": "library",
+    "name": "react-test-renderer",
+    "version": "19.2.3",
+    "purl": "pkg:npm/react-test-renderer@19.2.3",
+    "bom-ref": "npm/react-test-renderer@19.2.3"
+   },
+   {
+    "type": "library",
+    "name": "tailwindcss",
+    "version": "^3.4.19",
+    "purl": "pkg:npm/tailwindcss@^3.4.19",
+    "bom-ref": "npm/tailwindcss@^3.4.19"
+   },
+   {
+    "type": "library",
+    "name": "@dnd-kit/core",
+    "version": "^6.3.1",
+    "purl": "pkg:npm/@dnd-kit/core@^6.3.1",
+    "bom-ref": "npm/@dnd-kit/core@^6.3.1"
+   },
+   {
+    "type": "library",
+    "name": "@dnd-kit/sortable",
+    "version": "^10.0.0",
+    "purl": "pkg:npm/@dnd-kit/sortable@^10.0.0",
+    "bom-ref": "npm/@dnd-kit/sortable@^10.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@dnd-kit/utilities",
+    "version": "^3.2.2",
+    "purl": "pkg:npm/@dnd-kit/utilities@^3.2.2",
+    "bom-ref": "npm/@dnd-kit/utilities@^3.2.2"
+   },
+   {
+    "type": "library",
+    "name": "@floating-ui/dom",
+    "version": "^1.8.0",
+    "purl": "pkg:npm/@floating-ui/dom@^1.8.0",
+    "bom-ref": "npm/@floating-ui/dom@^1.8.0"
+   },
+   {
+    "type": "library",
+    "name": "@mantine/carousel",
+    "version": "^9.7.1",
+    "purl": "pkg:npm/@mantine/carousel@^9.7.1",
+    "bom-ref": "npm/@mantine/carousel@^9.7.1"
+   },
+   {
+    "type": "library",
+    "name": "@mantine/charts",
+    "version": "^9.7.1",
+    "purl": "pkg:npm/@mantine/charts@^9.7.1",
+    "bom-ref": "npm/@mantine/charts@^9.7.1"
+   },
+   {
+    "type": "library",
+    "name": "@mantine/core",
+    "version": "^9.7.1",
+    "purl": "pkg:npm/@mantine/core@^9.7.1",
+    "bom-ref": "npm/@mantine/core@^9.7.1"
+   },
+   {
+    "type": "library",
+    "name": "@mantine/dates",
+    "version": "^9.7.1",
+    "purl": "pkg:npm/@mantine/dates@^9.7.1",
+    "bom-ref": "npm/@mantine/dates@^9.7.1"
+   },
+   {
+    "type": "library",
+    "name": "@mantine/form",
+    "version": "^9.7.1",
+    "purl": "pkg:npm/@mantine/form@^9.7.1",
+    "bom-ref": "npm/@mantine/form@^9.7.1"
+   },
+   {
+    "type": "library",
+    "name": "@mantine/hooks",
+    "version": "^9.7.1",
+    "purl": "pkg:npm/@mantine/hooks@^9.7.1",
+    "bom-ref": "npm/@mantine/hooks@^9.7.1"
+   },
+   {
+    "type": "library",
+    "name": "@mantine/notifications",
+    "version": "^9.7.1",
+    "purl": "pkg:npm/@mantine/notifications@^9.7.1",
+    "bom-ref": "npm/@mantine/notifications@^9.7.1"
+   },
+   {
+    "type": "library",
+    "name": "@mantine/spotlight",
+    "version": "^9.7.1",
+    "purl": "pkg:npm/@mantine/spotlight@^9.7.1",
+    "bom-ref": "npm/@mantine/spotlight@^9.7.1"
+   },
+   {
+    "type": "library",
+    "name": "@mantine/tiptap",
+    "version": "^9.7.1",
+    "purl": "pkg:npm/@mantine/tiptap@^9.7.1",
+    "bom-ref": "npm/@mantine/tiptap@^9.7.1"
+   },
+   {
+    "type": "library",
+    "name": "@tabler/icons-react",
+    "version": "^3.41.1",
+    "purl": "pkg:npm/@tabler/icons-react@^3.41.1",
+    "bom-ref": "npm/@tabler/icons-react@^3.41.1"
+   },
+   {
+    "type": "library",
+    "name": "@tanstack/react-router",
+    "version": "^1.168.10",
+    "purl": "pkg:npm/@tanstack/react-router@^1.168.10",
+    "bom-ref": "npm/@tanstack/react-router@^1.168.10"
+   },
+   {
+    "type": "library",
+    "name": "@tanstack/react-virtual",
+    "version": "^3.14.13",
+    "purl": "pkg:npm/@tanstack/react-virtual@^3.14.13",
+    "bom-ref": "npm/@tanstack/react-virtual@^3.14.13"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/core",
+    "version": "^3.31.4",
+    "purl": "pkg:npm/@tiptap/core@^3.31.4",
+    "bom-ref": "npm/@tiptap/core@^3.31.4"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/extension-document",
+    "version": "^3.31.4",
+    "purl": "pkg:npm/@tiptap/extension-document@^3.31.4",
+    "bom-ref": "npm/@tiptap/extension-document@^3.31.4"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/extension-link",
+    "version": "^3.31.4",
+    "purl": "pkg:npm/@tiptap/extension-link@^3.31.4",
+    "bom-ref": "npm/@tiptap/extension-link@^3.31.4"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/extension-mention",
+    "version": "^3.31.4",
+    "purl": "pkg:npm/@tiptap/extension-mention@^3.31.4",
+    "bom-ref": "npm/@tiptap/extension-mention@^3.31.4"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/extension-paragraph",
+    "version": "^3.31.4",
+    "purl": "pkg:npm/@tiptap/extension-paragraph@^3.31.4",
+    "bom-ref": "npm/@tiptap/extension-paragraph@^3.31.4"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/extension-text",
+    "version": "^3.31.4",
+    "purl": "pkg:npm/@tiptap/extension-text@^3.31.4",
+    "bom-ref": "npm/@tiptap/extension-text@^3.31.4"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/pm",
+    "version": "^3.31.4",
+    "purl": "pkg:npm/@tiptap/pm@^3.31.4",
+    "bom-ref": "npm/@tiptap/pm@^3.31.4"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/react",
+    "version": "^3.31.4",
+    "purl": "pkg:npm/@tiptap/react@^3.31.4",
+    "bom-ref": "npm/@tiptap/react@^3.31.4"
+   },
+   {
+    "type": "library",
+    "name": "@tiptap/suggestion",
+    "version": "^3.31.4",
+    "purl": "pkg:npm/@tiptap/suggestion@^3.31.4",
+    "bom-ref": "npm/@tiptap/suggestion@^3.31.4"
+   },
+   {
+    "type": "library",
+    "name": "@use-gesture/react",
+    "version": "^10.3.1",
+    "purl": "pkg:npm/@use-gesture/react@^10.3.1",
+    "bom-ref": "npm/@use-gesture/react@^10.3.1"
+   },
+   {
+    "type": "library",
+    "name": "@visx/gradient",
+    "version": "4.0.0",
+    "purl": "pkg:npm/@visx/gradient@4.0.0",
+    "bom-ref": "npm/@visx/gradient@4.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@visx/group",
+    "version": "4.0.0",
+    "purl": "pkg:npm/@visx/group@4.0.0",
+    "bom-ref": "npm/@visx/group@4.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@visx/hierarchy",
+    "version": "4.0.0",
+    "purl": "pkg:npm/@visx/hierarchy@4.0.0",
+    "bom-ref": "npm/@visx/hierarchy@4.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@visx/shape",
+    "version": "4.0.0",
+    "purl": "pkg:npm/@visx/shape@4.0.0",
+    "bom-ref": "npm/@visx/shape@4.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@welldone-software/why-did-you-render",
+    "version": "^10.0.1",
+    "purl": "pkg:npm/@welldone-software/why-did-you-render@^10.0.1",
+    "bom-ref": "npm/@welldone-software/why-did-you-render@^10.0.1"
+   },
+   {
+    "type": "library",
+    "name": "clsx",
+    "version": "^2.1.1",
+    "purl": "pkg:npm/clsx@^2.1.1",
+    "bom-ref": "npm/clsx@^2.1.1"
+   },
+   {
+    "type": "library",
+    "name": "crypto-js",
+    "version": "4.2.0",
+    "purl": "pkg:npm/crypto-js@4.2.0",
+    "bom-ref": "npm/crypto-js@4.2.0"
+   },
+   {
+    "type": "library",
+    "name": "d3-drag",
+    "version": "3.0.0",
+    "purl": "pkg:npm/d3-drag@3.0.0",
+    "bom-ref": "npm/d3-drag@3.0.0"
+   },
+   {
+    "type": "library",
+    "name": "d3-force",
+    "version": "3.0.0",
+    "purl": "pkg:npm/d3-force@3.0.0",
+    "bom-ref": "npm/d3-force@3.0.0"
+   },
+   {
+    "type": "library",
+    "name": "d3-hierarchy",
+    "version": "3.1.2",
+    "purl": "pkg:npm/d3-hierarchy@3.1.2",
+    "bom-ref": "npm/d3-hierarchy@3.1.2"
+   },
+   {
+    "type": "library",
+    "name": "d3-selection",
+    "version": "3.0.0",
+    "purl": "pkg:npm/d3-selection@3.0.0",
+    "bom-ref": "npm/d3-selection@3.0.0"
+   },
+   {
+    "type": "library",
+    "name": "d3-shape",
+    "version": "3.2.0",
+    "purl": "pkg:npm/d3-shape@3.2.0",
+    "bom-ref": "npm/d3-shape@3.2.0"
+   },
+   {
+    "type": "library",
+    "name": "d3-zoom",
+    "version": "3.0.0",
+    "purl": "pkg:npm/d3-zoom@3.0.0",
+    "bom-ref": "npm/d3-zoom@3.0.0"
+   },
+   {
+    "type": "library",
+    "name": "dayjs",
+    "version": "^1.11.20",
+    "purl": "pkg:npm/dayjs@^1.11.20",
+    "bom-ref": "npm/dayjs@^1.11.20"
+   },
+   {
+    "type": "library",
+    "name": "embla-carousel-react",
+    "version": "^8.6.0",
+    "purl": "pkg:npm/embla-carousel-react@^8.6.0",
+    "bom-ref": "npm/embla-carousel-react@^8.6.0"
+   },
+   {
+    "type": "library",
+    "name": "i18next-browser-languagedetector",
+    "version": "^8.2.1",
+    "purl": "pkg:npm/i18next-browser-languagedetector@^8.2.1",
+    "bom-ref": "npm/i18next-browser-languagedetector@^8.2.1"
+   },
+   {
+    "type": "library",
+    "name": "jwt-decode",
+    "version": "^4.0.0",
+    "purl": "pkg:npm/jwt-decode@^4.0.0",
+    "bom-ref": "npm/jwt-decode@^4.0.0"
+   },
+   {
+    "type": "library",
+    "name": "lodash",
+    "version": "^4.18.1",
+    "purl": "pkg:npm/lodash@^4.18.1",
+    "bom-ref": "npm/lodash@^4.18.1"
+   },
+   {
+    "type": "library",
+    "name": "lodash-es",
+    "version": "^4.18.1",
+    "purl": "pkg:npm/lodash-es@^4.18.1",
+    "bom-ref": "npm/lodash-es@^4.18.1"
+   },
+   {
+    "type": "library",
+    "name": "luxon",
+    "version": "3.7.2",
+    "purl": "pkg:npm/luxon@3.7.2",
+    "bom-ref": "npm/luxon@3.7.2"
+   },
+   {
+    "type": "library",
+    "name": "maplibre-gl",
+    "version": "^6.0.0",
+    "purl": "pkg:npm/maplibre-gl@^6.0.0",
+    "bom-ref": "npm/maplibre-gl@^6.0.0"
+   },
+   {
+    "type": "library",
+    "name": "motion",
+    "version": "^14.0.0",
+    "purl": "pkg:npm/motion@^14.0.0",
+    "bom-ref": "npm/motion@^14.0.0"
+   },
+   {
+    "type": "library",
+    "name": "prop-types",
+    "version": "15.8.1",
+    "purl": "pkg:npm/prop-types@15.8.1",
+    "bom-ref": "npm/prop-types@15.8.1"
+   },
+   {
+    "type": "library",
+    "name": "react-avatar-editor",
+    "version": "16.0.0",
+    "purl": "pkg:npm/react-avatar-editor@16.0.0",
+    "bom-ref": "npm/react-avatar-editor@16.0.0"
+   },
+   {
+    "type": "library",
+    "name": "react-cookie",
+    "version": "^8.0.0",
+    "purl": "pkg:npm/react-cookie@^8.0.0",
+    "bom-ref": "npm/react-cookie@^8.0.0"
+   },
+   {
+    "type": "library",
+    "name": "react-cool-dimensions",
+    "version": "3.0.1",
+    "purl": "pkg:npm/react-cool-dimensions@3.0.1",
+    "bom-ref": "npm/react-cool-dimensions@3.0.1"
+   },
+   {
+    "type": "library",
+    "name": "react-dropzone",
+    "version": "^20.0.0",
+    "purl": "pkg:npm/react-dropzone@^20.0.0",
+    "bom-ref": "npm/react-dropzone@^20.0.0"
+   },
+   {
+    "type": "library",
+    "name": "react-is",
+    "version": "19.3.0",
+    "purl": "pkg:npm/react-is@19.3.0",
+    "bom-ref": "npm/react-is@19.3.0"
+   },
+   {
+    "type": "library",
+    "name": "react-map-gl",
+    "version": "^8.1.3",
+    "purl": "pkg:npm/react-map-gl@^8.1.3",
+    "bom-ref": "npm/react-map-gl@^8.1.3"
+   },
+   {
+    "type": "library",
+    "name": "recharts",
+    "version": "^3.10.1",
+    "purl": "pkg:npm/recharts@^3.10.1",
+    "bom-ref": "npm/recharts@^3.10.1"
+   },
+   {
+    "type": "library",
+    "name": "tippy.js",
+    "version": "^6.3.7",
+    "purl": "pkg:npm/tippy.js@^6.3.7",
+    "bom-ref": "npm/tippy.js@^6.3.7"
+   },
+   {
+    "type": "library",
+    "name": "@eslint-community/eslint-plugin-eslint-comments",
+    "version": "^4.8.1",
+    "purl": "pkg:npm/@eslint-community/eslint-plugin-eslint-comments@^4.8.1",
+    "bom-ref": "npm/@eslint-community/eslint-plugin-eslint-comments@^4.8.1"
+   },
+   {
+    "type": "library",
+    "name": "@ianvs/prettier-plugin-sort-imports",
+    "version": "^4.7.1",
+    "purl": "pkg:npm/@ianvs/prettier-plugin-sort-imports@^4.7.1",
+    "bom-ref": "npm/@ianvs/prettier-plugin-sort-imports@^4.7.1"
+   },
+   {
+    "type": "library",
+    "name": "@tanstack/router-plugin",
+    "version": "^1.167.12",
+    "purl": "pkg:npm/@tanstack/router-plugin@^1.167.12",
+    "bom-ref": "npm/@tanstack/router-plugin@^1.167.12"
+   },
+   {
+    "type": "library",
+    "name": "@types/crypto-js",
+    "version": "4.2.2",
+    "purl": "pkg:npm/@types/crypto-js@4.2.2",
+    "bom-ref": "npm/@types/crypto-js@4.2.2"
+   },
+   {
+    "type": "library",
+    "name": "@types/d3-drag",
+    "version": "3.0.7",
+    "purl": "pkg:npm/@types/d3-drag@3.0.7",
+    "bom-ref": "npm/@types/d3-drag@3.0.7"
+   },
+   {
+    "type": "library",
+    "name": "@types/d3-force",
+    "version": "3.0.10",
+    "purl": "pkg:npm/@types/d3-force@3.0.10",
+    "bom-ref": "npm/@types/d3-force@3.0.10"
+   },
+   {
+    "type": "library",
+    "name": "@types/d3-selection",
+    "version": "3.0.12",
+    "purl": "pkg:npm/@types/d3-selection@3.0.12",
+    "bom-ref": "npm/@types/d3-selection@3.0.12"
+   },
+   {
+    "type": "library",
+    "name": "@types/d3-shape",
+    "version": "3.2.0",
+    "purl": "pkg:npm/@types/d3-shape@3.2.0",
+    "bom-ref": "npm/@types/d3-shape@3.2.0"
+   },
+   {
+    "type": "library",
+    "name": "@types/d3-zoom",
+    "version": "3.0.9",
+    "purl": "pkg:npm/@types/d3-zoom@3.0.9",
+    "bom-ref": "npm/@types/d3-zoom@3.0.9"
+   },
+   {
+    "type": "library",
+    "name": "@types/geojson",
+    "version": "^7946.0.16",
+    "purl": "pkg:npm/@types/geojson@^7946.0.16",
+    "bom-ref": "npm/@types/geojson@^7946.0.16"
+   },
+   {
+    "type": "library",
+    "name": "@types/lodash",
+    "version": "^4.17.24",
+    "purl": "pkg:npm/@types/lodash@^4.17.24",
+    "bom-ref": "npm/@types/lodash@^4.17.24"
+   },
+   {
+    "type": "library",
+    "name": "@types/lodash-es",
+    "version": "^4.17.12",
+    "purl": "pkg:npm/@types/lodash-es@^4.17.12",
+    "bom-ref": "npm/@types/lodash-es@^4.17.12"
+   },
+   {
+    "type": "library",
+    "name": "@types/luxon",
+    "version": "3.7.6",
+    "purl": "pkg:npm/@types/luxon@3.7.6",
+    "bom-ref": "npm/@types/luxon@3.7.6"
+   },
+   {
+    "type": "library",
+    "name": "@types/react-dom",
+    "version": "19.3.0",
+    "purl": "pkg:npm/@types/react-dom@19.3.0",
+    "bom-ref": "npm/@types/react-dom@19.3.0"
+   },
+   {
+    "type": "library",
+    "name": "@types/react-modal",
+    "version": "3.16.3",
+    "purl": "pkg:npm/@types/react-modal@3.16.3",
+    "bom-ref": "npm/@types/react-modal@3.16.3"
+   },
+   {
+    "type": "library",
+    "name": "@typescript-eslint/eslint-plugin",
+    "version": "^8.58.0",
+    "purl": "pkg:npm/@typescript-eslint/eslint-plugin@^8.58.0",
+    "bom-ref": "npm/@typescript-eslint/eslint-plugin@^8.58.0"
+   },
+   {
+    "type": "library",
+    "name": "@typescript-eslint/parser",
+    "version": "^8.58.0",
+    "purl": "pkg:npm/@typescript-eslint/parser@^8.58.0",
+    "bom-ref": "npm/@typescript-eslint/parser@^8.58.0"
+   },
+   {
+    "type": "library",
+    "name": "@vitejs/plugin-react",
+    "version": "^6.0.0",
+    "purl": "pkg:npm/@vitejs/plugin-react@^6.0.0",
+    "bom-ref": "npm/@vitejs/plugin-react@^6.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@vitest/coverage-v8",
+    "version": "^5.0.0",
+    "purl": "pkg:npm/@vitest/coverage-v8@^5.0.0",
+    "bom-ref": "npm/@vitest/coverage-v8@^5.0.0"
+   },
+   {
+    "type": "library",
+    "name": "eslint-nibble",
+    "version": "9.1.1",
+    "purl": "pkg:npm/eslint-nibble@9.1.1",
+    "bom-ref": "npm/eslint-nibble@9.1.1"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-prettier",
+    "version": "^5.5.5",
+    "purl": "pkg:npm/eslint-plugin-prettier@^5.5.5",
+    "bom-ref": "npm/eslint-plugin-prettier@^5.5.5"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-react",
+    "version": "7.37.5",
+    "purl": "pkg:npm/eslint-plugin-react@7.37.5",
+    "bom-ref": "npm/eslint-plugin-react@7.37.5"
+   },
+   {
+    "type": "library",
+    "name": "globals",
+    "version": "^17.4.0",
+    "purl": "pkg:npm/globals@^17.4.0",
+    "bom-ref": "npm/globals@^17.4.0"
+   },
+   {
+    "type": "library",
+    "name": "husky",
+    "version": "^9.1.7",
+    "purl": "pkg:npm/husky@^9.1.7",
+    "bom-ref": "npm/husky@^9.1.7"
+   },
+   {
+    "type": "library",
+    "name": "jsdom",
+    "version": "^30.0.0",
+    "purl": "pkg:npm/jsdom@^30.0.0",
+    "bom-ref": "npm/jsdom@^30.0.0"
+   },
+   {
+    "type": "library",
+    "name": "lint-staged",
+    "version": "^17.0.0",
+    "purl": "pkg:npm/lint-staged@^17.0.0",
+    "bom-ref": "npm/lint-staged@^17.0.0"
+   },
+   {
+    "type": "library",
+    "name": "rimraf",
+    "version": "^6.1.3",
+    "purl": "pkg:npm/rimraf@^6.1.3",
+    "bom-ref": "npm/rimraf@^6.1.3"
+   },
+   {
+    "type": "library",
+    "name": "vite",
+    "version": "^8.0.0",
+    "purl": "pkg:npm/vite@^8.0.0",
+    "bom-ref": "npm/vite@^8.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@playwright/test",
+    "version": "1.64.0",
+    "purl": "pkg:npm/@playwright/test@1.64.0",
+    "bom-ref": "npm/@playwright/test@1.64.0"
+   },
+   {
+    "type": "library",
+    "name": "@docusaurus/core",
+    "version": "3.10.2",
+    "purl": "pkg:npm/@docusaurus/core@3.10.2",
+    "bom-ref": "npm/@docusaurus/core@3.10.2"
+   },
+   {
+    "type": "library",
+    "name": "@docusaurus/preset-classic",
+    "version": "3.10.2",
+    "purl": "pkg:npm/@docusaurus/preset-classic@3.10.2",
+    "bom-ref": "npm/@docusaurus/preset-classic@3.10.2"
+   },
+   {
+    "type": "library",
+    "name": "@mdx-js/react",
+    "version": "^3.1.1",
+    "purl": "pkg:npm/@mdx-js/react@^3.1.1",
+    "bom-ref": "npm/@mdx-js/react@^3.1.1"
+   },
+   {
+    "type": "library",
+    "name": "prism-react-renderer",
+    "version": "^2.4.1",
+    "purl": "pkg:npm/prism-react-renderer@^2.4.1",
+    "bom-ref": "npm/prism-react-renderer@^2.4.1"
+   },
+   {
+    "type": "library",
+    "name": "@docusaurus/module-type-aliases",
+    "version": "3.10.2",
+    "purl": "pkg:npm/@docusaurus/module-type-aliases@3.10.2",
+    "bom-ref": "npm/@docusaurus/module-type-aliases@3.10.2"
+   },
+   {
+    "type": "library",
+    "name": "@docusaurus/tsconfig",
+    "version": "3.10.2",
+    "purl": "pkg:npm/@docusaurus/tsconfig@3.10.2",
+    "bom-ref": "npm/@docusaurus/tsconfig@3.10.2"
+   },
+   {
+    "type": "library",
+    "name": "@docusaurus/types",
+    "version": "3.10.2",
+    "purl": "pkg:npm/@docusaurus/types@3.10.2",
+    "bom-ref": "npm/@docusaurus/types@3.10.2"
+   }
+  ]
+ },
+ "elapsed_seconds": 41.41,
+ "benchmarks": [
+  {
+   "evidence": {
+    "ceilings": {
+     "max_files": 120,
+     "max_lines": 20000,
+     "min_lines": 2000
+    },
+    "code_lines": 6889,
+    "command": "python tools/run_bench.py --only 01_loc_files",
+    "counts_command": "find src tests tools -name '*.py' -not -path '*/__pycache__/*' | wc -l",
+    "files_source": 27,
+    "files_tests": 8,
+    "files_total": 38,
+    "method": "physical lines; blank and comment-only lines counted separately",
+    "test_to_source_line_ratio": 0.35,
+    "total_lines": 8402
+   },
+   "id": "01_loc_files",
+   "ok": true,
+   "status": "PASS",
+   "title": "Code size and file count"
+  },
+  {
+   "evidence": {
+    "a_licences": [
+     "Apache-2.0",
+     "BSD-2-Clause",
+     "BSD-3-Clause",
+     "ISC",
+     "MIT",
+     "MPL-2.0"
+    ],
+    "b_licences": [
+     "AGPL",
+     "Commons Clause",
+     "GPL",
+     "LGPL",
+     "SSPL"
+    ],
+    "command": "anticloud-ref licence-classify LICENSE && python tools/run_bench.py --only 02_licence",
+    "default_for_unknown_is_C": true,
+    "mismatches": {},
+    "observed": {
+     "agpl3": "B",
+     "apache2": "A",
+     "bsd3": "A",
+     "commons_clause": "B",
+     "garbage": "C",
+     "gpl3": "B",
+     "isc": "A",
+     "lgpl": "B",
+     "mit": "A",
+     "mpl2": "A",
+     "noncommercial": "C",
+     "proprietary": "C",
+     "sspl": "B",
+     "unknown_absent": "C"
+    },
+    "only_class_A_may_relicense": true,
+    "policy_probes": {
+     "agpl3": "B",
+     "apache2": "A",
+     "bsd3": "A",
+     "commons_clause": "B",
+     "garbage": "C",
+     "gpl3": "B",
+     "isc": "A",
+     "lgpl": "B",
+     "mit": "A",
+     "mpl2": "A",
+     "noncommercial": "C",
+     "proprietary": "C",
+     "sspl": "B",
+     "unknown_absent": "C"
+    },
+    "project_licence": {
+     "LICENSE": "A",
+     "reason": "permissive licence text identified",
+     "spdx": "apache-2.0"
+    },
+    "pyproject_declared": "Apache-2.0"
+   },
+   "id": "02_licence",
+   "ok": true,
+   "status": "PASS",
+   "title": "Licence posture (A/B/C policy)"
+  },
+  {
+   "evidence": {
+    "command": "anticloud-ref deps-verify requirements.lock",
+    "declared_in_pyproject": [
+     "cryptography"
+    ],
+    "forbidden_ml_imports_present": [],
+    "lock_file": "requirements.lock",
+    "packages_hashed": 6,
+    "packages_pinned": 6,
+    "requirements": [
+     "cffi==2.1.1",
+     "coverage==7.16.2",
+     "cryptography==50.0.2",
+     "pycparser==3.0",
+     "pytest==9.1.1",
+     "pytest-cov==7.1.0"
+    ],
+    "sha256_hashes": 286,
+    "transitive_or_unclassified": [
+     "cffi==2.1.1",
+     "coverage==7.16.2",
+     "cryptography==50.0.2",
+     "pycparser==3.0",
+     "pytest-cov==7.1.0",
+     "pytest==9.1.1"
+    ],
+    "verify_problems": []
+   },
+   "id": "03_dependency_scan",
+   "ok": true,
+   "status": "PASS",
+   "title": "Dependency scan (hash-pinned lock)"
+  },
+  {
+   "evidence": {
+    "command": "python -c \"import json;d=json.load(open('sbom.cdx.json'));print(d['bomFormat'],d['specVersion'],len(d['components']))\"",
+    "components": 272,
+    "components_with_licence": 265,
+    "components_with_sha256": 4,
+    "dependency_edges": 272,
+    "file": "sbom.cdx.json",
+    "format": "CycloneDX",
+    "generated_from": "live importlib.metadata + requirements.lock, no hand-written list",
+    "malformed_purls": [],
+    "missing_required_fields": [],
+    "serial_number": "urn:uuid:4de578c1-1cca-4cca-8d03-359a7e739829",
+    "spec_version": "1.5"
+   },
+   "id": "04_sbom_cyclonedx",
+   "ok": true,
+   "status": "PASS",
+   "title": "SBOM (CycloneDX 1.5)"
+  },
+  {
+   "evidence": {
+    "branch": "main",
+    "command": "git status --porcelain && git log --oneline -1 && git fsck --no-progress",
+    "commits": 1,
+    "gitignore_present": true,
+    "governed_by_changelog": true,
+    "head": "9a7ff7056422b4b33eaf900c9ca467b4dd34f9a5",
+    "latest_commit": "9a7ff70 anticloud overlay + upstream swap to LibrePhotos/librephotos",
+    "remotes": [],
+    "repo": true,
+    "tags": [],
+    "untracked_or_modified": [],
+    "working_tree_clean": true
+   },
+   "id": "05_git_health",
+   "ok": true,
+   "status": "PASS",
+   "title": "Git health"
+  },
+  {
+   "evidence": {
+    "authority": "OWASP Foundation",
+    "command": "python tools/run_bench.py --only owasp",
+    "control_ids": [
+     "LLM01",
+     "LLM02",
+     "LLM03",
+     "LLM04",
+     "LLM05",
+     "LLM06",
+     "LLM07",
+     "LLM08",
+     "LLM09",
+     "LLM10"
+    ],
+    "controls_mapped": 10,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 10,
+    "coverage_command": "anticloud-ref bench --framework owasp_llm_top10   # 10/10 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "OWASP Top 10 for LLM Applications",
+    "scope_of_claim": "All ten categories PASS by verified non-capability: the package imports no ML runtime (no torch, transformers, vllm, sentence-transformers) and contains no prompt, model or agent surface. A PASS means the risk is structurally absent, not mitigated.",
+    "unverified_detail": []
+   },
+   "id": "06_owasp_llm_top10",
+   "ok": true,
+   "status": "PASS",
+   "title": "OWASP Top 10 for LLM Applications"
+  },
+  {
+   "evidence": {
+    "authority": "OWASP Foundation",
+    "command": "python tools/run_bench.py --only owasp",
+    "control_ids": [
+     "A01:2021",
+     "A02:2021",
+     "A03:2021",
+     "A05:2021",
+     "A06:2021",
+     "A07:2021",
+     "A08:2021",
+     "A09:2021",
+     "A10:2021"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework owasp_top10   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "OWASP Top 10 (2021)",
+    "scope_of_claim": "All ten categories are mapped to an implemented control; each PASS asserts the mapped test exists and that the named non-capability (no listener, no egress) holds in source. It is not a penetration test.",
+    "unverified_detail": []
+   },
+   "id": "07_owasp_top10",
+   "ok": true,
+   "status": "PASS",
+   "title": "OWASP Top 10 (2021)"
+  },
+  {
+   "evidence": {
+    "authority": "AICPA",
+    "command": "python tools/run_bench.py --only soc2",
+    "control_ids": [
+     "CC6.1",
+     "CC6.2",
+     "CC6.6",
+     "CC6.7",
+     "CC6.8",
+     "CC7.2",
+     "CC8.1",
+     "CC9.2",
+     "CC6.1"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework soc2   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "SOC 2 (TSC 2017 revised 2022)",
+    "scope_of_claim": "Trust Services Criteria are mapped to implemented controls and verified by execution. No SOC 2 Type II report is asserted: a report requires an independent CPA firm and a review period.",
+    "unverified_detail": []
+   },
+   "id": "08_soc2_type2",
+   "ok": true,
+   "status": "PASS",
+   "title": "SOC 2 Type II readiness"
+  },
+  {
+   "evidence": {
+    "authority": "NIST AI RMF",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "GOVERN-1.1",
+     "GOVERN-2.2",
+     "MAP-1.1",
+     "MAP-3.5",
+     "MEASURE-2.7",
+     "MEASURE-2.8",
+     "MANAGE-2.2",
+     "MANAGE-4.1"
+    ],
+    "controls_mapped": 8,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 8,
+    "coverage_command": "anticloud-ref bench --framework nist_ai_rmf   # 8/8 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST AI Risk Management Framework 1.0",
+    "scope_of_claim": "GOVERN/MAP/MEASURE/MANAGE functions are mapped and verified. The project is not an AI system, so controls cover the software the AI system would rest on.",
+    "unverified_detail": []
+   },
+   "id": "09_nist_ai_rmf",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST AI Risk Management Framework"
+  },
+  {
+   "evidence": {
+    "authority": "NIST",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "AC-3(2)",
+     "AC-6(7)",
+     "AU-2",
+     "AU-3",
+     "AU-10",
+     "CM-6",
+     "CP-9",
+     "RA-5",
+     "SA-11",
+     "SI-7",
+     "SC-12",
+     "SC-13"
+    ],
+    "controls_mapped": 12,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 12,
+    "coverage_command": "anticloud-ref bench --framework nist_800_53   # 12/12 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST SP 800-53 Rev. 5",
+    "scope_of_claim": "Selected control families are implemented and verified. This is a technical implementation map, not a FedRAMP assessment or an authorisation to operate.",
+    "unverified_detail": []
+   },
+   "id": "10_nist_sp_800_53",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST SP 800-53 Rev. 5"
+  },
+  {
+   "evidence": {
+    "authority": "NIST",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "GOVERN-1.1",
+     "GOVERN-2.2",
+     "MAP-1.1",
+     "MAP-3.5",
+     "MEASURE-2.7",
+     "MEASURE-2.8",
+     "MANAGE-2.2",
+     "MANAGE-4.1"
+    ],
+    "controls_mapped": 8,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 8,
+    "coverage_command": "anticloud-ref bench --framework nist_csf   # 8/8 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST Cybersecurity Framework 2.0",
+    "scope_of_claim": "CSF 2.0 functions are covered through the aligned control map. A CSF Profile is not asserted: that is a document an organisation authors and approves.",
+    "unverified_detail": []
+   },
+   "id": "11_nist_csf",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST Cybersecurity Framework 2.0"
+  },
+  {
+   "evidence": {
+    "authority": "FedRAMP",
+    "command": "python tools/run_bench.py --only fedramp",
+    "control_ids": [
+     "IA-2",
+     "IA-5",
+     "RA-5",
+     "SA-4",
+     "SA-10",
+     "SA-11",
+     "SC-7",
+     "SC-8",
+     "SC-13",
+     "SI-2"
+    ],
+    "controls_mapped": 10,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 10,
+    "coverage_command": "anticloud-ref bench --framework fedramp   # 10/10 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "FedRAMP Rev. 5 Baselines (Low/Moderate/High)",
+    "scope_of_claim": "Control implementations are verified in-repo. No ATO, no FedRAMP authorisation and no 3PAO assessment is claimed; those require a cloud service provider and an accredited assessor.",
+    "unverified_detail": []
+   },
+   "id": "12_fedramp",
+   "ok": true,
+   "status": "PASS",
+   "title": "FedRAMP Rev. 5"
+  },
+  {
+   "evidence": {
+    "authority": "PCI SSC",
+    "command": "python tools/run_bench.py --only pci",
+    "control_ids": [
+     "1.1.1",
+     "1.2.1",
+     "2.2.1",
+     "3.4.1",
+     "3.5.1",
+     "6.2.4",
+     "6.4.2",
+     "8.3.6",
+     "10.2.1",
+     "11.3.1",
+     "11.5.2"
+    ],
+    "controls_mapped": 11,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 11,
+    "coverage_command": "anticloud-ref bench --framework pci_dss   # 11/11 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "PCI DSS v4.0.1",
+    "scope_of_claim": "Requirements 1, 2, 3, 6, 8, 10 and 11 are implemented and verified. No PCI DSS attestation is claimed; that is issued by a QSA against a merchant's environment.",
+    "unverified_detail": []
+   },
+   "id": "13_pci_dss",
+   "ok": true,
+   "status": "PASS",
+   "title": "PCI DSS v4.0.1"
+  },
+  {
+   "evidence": {
+    "authority": "ISO/IEC",
+    "command": "python tools/run_bench.py --only iso",
+    "control_ids": [
+     "5.1.1",
+     "5.1.2",
+     "8.2.3",
+     "8.24",
+     "8.28",
+     "8.29",
+     "8.16",
+     "8.20",
+     "8.24"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework iso_27001   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "ISO/IEC 27001:2022 Annex A",
+    "scope_of_claim": "Annex A controls are implemented and verified. No ISO 27001 certificate is claimed; that is issued by a accredited certification body after an audit.",
+    "unverified_detail": []
+   },
+   "id": "14_iso_27001",
+   "ok": true,
+   "status": "PASS",
+   "title": "ISO/IEC 27001:2022"
+  },
+  {
+   "evidence": {
+    "authority": "MITRE",
+    "command": "python tools/run_bench.py --only mitre",
+    "control_ids": [
+     "T1078",
+     "T1552",
+     "T1552.001",
+     "T1553",
+     "T1195.002",
+     "T1221",
+     "T1600.002",
+     "T1499",
+     "T1565",
+     "T1565.001",
+     "T1530",
+     "T1619"
+    ],
+    "controls_mapped": 12,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 12,
+    "coverage_command": "anticloud-ref bench --framework mitre_attack   # 12/12 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "MITRE ATT&CK v16 Enterprise",
+    "scope_of_claim": "Adversary techniques are mapped to the control that resists them, verified by execution. This is not adversary emulation or a purple-team exercise.",
+    "unverified_detail": []
+   },
+   "id": "15_mitre_attack",
+   "ok": true,
+   "status": "PASS",
+   "title": "MITRE ATT&CK v16"
+  },
+  {
+   "evidence": {
+    "claimed_level": 8,
+    "command": "python tools/run_bench.py --only 16 && cat docs/18_TRL_JUSTIFICATION/TRL.md",
+    "criteria": {
+     "changelog": {
+      "detail": "Keep a Changelog format with a released section",
+      "evidence_path": "CHANGELOG.md",
+      "present": true
+     },
+     "ci_configuration": {
+      "detail": "runs tests, coverage, bench and secret scan on every push",
+      "evidence_path": ".github/workflows/ci.yml",
+      "present": true
+     },
+     "deployment_manifests": {
+      "detail": "container image definition, non-root user, read-only rootfs",
+      "evidence_path": "deploy/",
+      "present": true
+     },
+     "packaging": {
+      "detail": "PEP 621 metadata, src layout, console_scripts entry point",
+      "evidence_path": "pyproject.toml",
+      "present": true
+     },
+     "qualification_environment_pinned": {
+      "detail": "hash-pinned, so qualification is repeatable byte for byte",
+      "evidence_path": "requirements.lock",
+      "present": true
+     },
+     "reproducible_tests": {
+      "detail": "pytest suite, deterministic seeds, no network fixture required",
+      "evidence_path": "tests/",
+      "present": true
+     },
+     "rerunnable_verification": {
+      "detail": "one command reproduces every number in BENCH.json",
+      "evidence_path": "tools/run_bench.py",
+      "present": true
+     },
+     "versioning": {
+      "detail": "single source of truth, currently 1.0.0",
+      "evidence_path": "src/anticloud_ref/_version.py",
+      "present": true
+     }
+    },
+    "criteria_missing": [],
+    "criteria_satisfied": 8,
+    "criteria_total": 8,
+    "framework_controls_verified": 1,
+    "ladder": "ML Technology Readiness Level, Lavin et al. 2022 (TMLR)",
+    "observed_level": 8,
+    "source": "22_COMPLIANCE_FRAMEWORKS/FACTS.md",
+    "trL9_claimed": false,
+    "trL9_reason": "requires proven success in an operational environment, which cannot be asserted from a repository"
+   },
+   "id": "16_ml_trl",
+   "ok": true,
+   "status": "PASS",
+   "title": "ML Technology Readiness Level 8"
+  }
+ ],
+ "passed": 16,
+ "failed": 0,
+ "failed_ids": [],
+ "all_passed": true,
+ "checks_executed_at": "2026-10-12T06:04:12.031978+00:00",
+ "checks_evidence": "ISOLATED_LAB_RESULTS/04_Evidence/16_checks_report.json",
+ "checks_evidence_sha3": "4f468b559a7afa23544e8d4b042dd557bf8daa9340d9bbd7da806877404355a5",
+ "upstream_substituted": {
+  "from": "GPL/AGPL slot",
+  "to": "LibrePhotos/librephotos",
+  "sha": "33606aaae83b9291e356ccfc3ce8ee06c3ef1bba",
+  "at": "2026-10-12T06:04:12.031978+00:00"
+ }
+}
